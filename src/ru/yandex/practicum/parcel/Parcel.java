@@ -3,8 +3,6 @@ package ru.yandex.practicum.parcel;
 import java.util.Objects;
 
 public abstract class Parcel {
-    private static final int TARIFF = 2;
-
     protected final String description;
     protected final int weight;
     protected final String deliveryAddress;
@@ -56,7 +54,5 @@ public abstract class Parcel {
                 ", день отправки=" + sendDay;
     }
 
-    protected int getTariff() {
-        return TARIFF;
-    }
+    protected abstract int getTariff();
 }

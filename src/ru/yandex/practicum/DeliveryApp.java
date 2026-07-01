@@ -1,5 +1,7 @@
-package ru.yandex.practicum.delivery;
+package ru.yandex.practicum;
 
+import ru.yandex.practicum.delivery.ParcelBox;
+import ru.yandex.practicum.delivery.Trackable;
 import ru.yandex.practicum.parcel.FragileParcel;
 import ru.yandex.practicum.parcel.Parcel;
 import ru.yandex.practicum.parcel.PerishableParcel;
